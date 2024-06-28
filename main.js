@@ -6,7 +6,6 @@ $(document).ready(function(){
     // })
 
     $('header button').click(function() {
-        alert('Expandir formulario')
         $('form').slideDown();
     })
 

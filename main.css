@@ -25,6 +25,7 @@ form {
     padding: 24px 0;
     text-align: center;
     display: none;
+    margin-bottom: 20px;
 }
 
 form h2 {
@@ -38,6 +39,7 @@ input, button {
 button {
     background-color: #009432;
     border: none;
+    border-radius: 7px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
@@ -50,6 +52,7 @@ button {
 
 ul {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -63,6 +66,7 @@ ul li {
 
 ul li img {
     width: 100%;
+
 }
 
 .overlay-imagem-link {
