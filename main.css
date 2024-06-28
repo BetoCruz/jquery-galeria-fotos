@@ -6,11 +6,11 @@
 }
 
 header {
-    background-color: #5f27cd;
+    background-color: #444444;
     padding: 16px 0;
     color: #fff;
     display:flex ;
-    border-bottom: 16px solid #341f97;
+    border-bottom: 16px solid #b52c00;
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
@@ -21,7 +21,7 @@ header button {
 }
 
 form {
-    background-color: #c8d6e5;
+    background-color: #fcf7d1;
     padding: 24px 0;
     text-align: center;
     display: none;
@@ -38,16 +38,25 @@ input, button {
 
 button {
     background-color: #009432;
-    border: none;
+    border: 5px solid #4eb26f;
     border-radius: 7px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;
+}button:hover{
+    background-color:#4eb26f ;
+    border:5px solid #009432  ;
+
 }
 
 #botao-cancelar {
     background-color: red;    
+    border: 5px solid rgb(255, 83, 83);
+}
+#botao-cancelar:hover{
+    background-color:  rgb(255, 83, 83);    
+    border: 5px solid red;
 }
 
 ul {
